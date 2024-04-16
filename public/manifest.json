@@ -1,6 +1,5 @@
 {
-  "name": "Web Push Test",
-  "short_name": "WebPushTest",
+  "name": "Nubank",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#90cdf4",
