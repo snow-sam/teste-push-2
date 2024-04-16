@@ -31,7 +31,7 @@ export default function Home() {
   const info = useDeviceInfo();
 
   function anticipateSubscriptionFailure(info: DeviceInfo) {
-    if (info.osName === "iOS") {
+    if (info.osName === "test") {
       if (minVersionCheck(info.osVersion.toString(), 16, 5)) {
         if (!info.standalone) return <IosInstructionalStatic />;
       } else {
