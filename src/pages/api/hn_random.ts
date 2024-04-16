@@ -26,8 +26,8 @@ type Story = {
 }
 
 const magicbell = new MagicBell({
-  apiKey: process.env.NEXT_PUBLIC_MAGICBELL_API_KEY,
-  apiSecret: process.env.MAGICBELL_API_SECRET,
+  apiKey: "7f448c94e94201cfe85cb7426f7c764d4ce88bef",
+  apiSecret: "GwrFcxINDxC99GQMbv9m0BmPpAqvseyiLaVj3SmB",
 })
 
 const firebaseConfig = {

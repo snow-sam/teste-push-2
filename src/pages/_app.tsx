@@ -9,7 +9,7 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <MagicBellProvider
-        apiKey={process.env.NEXT_PUBLIC_MAGICBELL_API_KEY}
+        apiKey={"7f448c94e94201cfe85cb7426f7c764d4ce88bef"}
         userExternalId={SubscriptionManager.getOrSetUserId()}
       >
         <DeviceInfoProvider>
